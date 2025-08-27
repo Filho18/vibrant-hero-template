@@ -6,15 +6,12 @@ import heroPattern from "@/assets/hero-pattern.jpg";
 const HeroSection = () => {
   return (
     <section 
-      className="min-h-screen bg-gradient-to-br from-hero-primary to-hero-secondary relative overflow-hidden"
+      className="min-h-screen relative overflow-hidden"
       style={{
-        backgroundImage: `url(${heroPattern})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundBlendMode: 'overlay'
+        background: 'radial-gradient(circle, #74e8a0 0%, rgba(116, 232, 160, 0.5) 50%, transparent 100%)'
       }}
     >
-      <div className="container mx-auto px-6 pt-20 pb-32 text-center relative z-10">
+      <div className="container mx-auto px-6 pt-32 pb-32 text-center relative z-10">
         <div className="flex justify-center mb-8">
           <HeroBadge />
         </div>
