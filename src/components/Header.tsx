@@ -27,7 +27,7 @@ const Header = () => {
         
         <div className="flex items-center">
           <button 
-            className="px-6 py-2 rounded-full text-white font-semibold transition-all duration-300 hover:scale-105"
+            className="px-4 py-2 rounded-full text-white font-semibold transition-all duration-300 hover:scale-105 text-sm"
             style={{
               background: 'linear-gradient(180deg, #000000 0%, #000000 60%, #1a1a1a 80%, #333333 100%)',
               boxShadow: '0 4px 15px rgba(0, 0, 0, 0.3)'

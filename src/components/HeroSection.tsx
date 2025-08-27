@@ -7,7 +7,7 @@ const HeroSection = () => {
     <section 
       className="min-h-screen relative overflow-hidden"
       style={{
-        background: 'radial-gradient(circle, #74e8a0 0%, rgba(116, 232, 160, 0.5) 50%, transparent 100%)'
+        background: 'radial-gradient(ellipse at center top, #74e8a0 0%, rgba(116, 232, 160, 0.8) 30%, rgba(116, 232, 160, 0.4) 60%, rgba(116, 232, 160, 0.1) 90%, transparent 100%)'
       }}
     >
       <div className="container mx-auto px-6 pt-32 pb-48 text-center relative z-10">
@@ -43,7 +43,7 @@ const HeroSection = () => {
         
         <div className="mb-16">
           <button 
-            className="text-lg px-8 py-4 rounded-full text-white font-semibold transition-all duration-300 hover:scale-105"
+            className="text-base px-6 py-3 rounded-full text-white font-semibold transition-all duration-300 hover:scale-105"
             style={{
               background: 'linear-gradient(180deg, #000000 0%, #000000 60%, #1a1a1a 80%, #333333 100%)',
               boxShadow: '0 4px 15px rgba(0, 0, 0, 0.3)'
