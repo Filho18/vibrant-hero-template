@@ -8,35 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 168 68% 85%;
+    --foreground: 210 11% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 210 11% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 210 11% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 210 11% 15%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 168 40% 75%;
+    --secondary-foreground: 210 11% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 168 25% 70%;
+    --muted-foreground: 210 11% 35%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 168 68% 85%;
+    --accent-foreground: 210 11% 15%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 168 40% 75%;
+    --input: 0 0% 100%;
+    --ring: 168 68% 50%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Custom CRM colors */
+    --hero-primary: 168 68% 75%;
+    --hero-secondary: 171 70% 80%;
+    --hero-gradient-start: 168 68% 75%;
+    --hero-gradient-end: 171 70% 85%;
+    --hero-text: 210 11% 15%;
+    --hero-text-muted: 210 11% 35%;
+    --btn-cta: 210 11% 15%;
+    --btn-cta-foreground: 0 0% 100%;
+    --btn-outline: 0 0% 100%;
+    --btn-outline-foreground: 210 11% 15%;
+    --nav-text: 210 11% 15%;
+    --badge-bg: 0 0% 100%;
+    --badge-text: 210 11% 15%;
 
     --sidebar-background: 0 0% 98%;
 

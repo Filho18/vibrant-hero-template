@@ -52,6 +52,25 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				hero: {
+					primary: 'hsl(var(--hero-primary))',
+					secondary: 'hsl(var(--hero-secondary))',
+					text: 'hsl(var(--hero-text))',
+					'text-muted': 'hsl(var(--hero-text-muted))'
+				},
+				'btn-cta': {
+					DEFAULT: 'hsl(var(--btn-cta))',
+					foreground: 'hsl(var(--btn-cta-foreground))'
+				},
+				'btn-outline': {
+					DEFAULT: 'hsl(var(--btn-outline))',
+					foreground: 'hsl(var(--btn-outline-foreground))'
+				},
+				'nav-text': 'hsl(var(--nav-text))',
+				badge: {
+					bg: 'hsl(var(--badge-bg))',
+					text: 'hsl(var(--badge-text))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
